@@ -1,0 +1,3 @@
+def line(deli)
+  if deli.empty?
+    puts 
