@@ -6,6 +6,6 @@ def line(deli)
     deli.each_with_index(1) { |name, index| }
       current_line << "#{index}. #{name}"
     end
-    current_line
+    puts current_line
   end
 end
